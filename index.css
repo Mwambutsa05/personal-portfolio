@@ -44,6 +44,7 @@ img{
 }
 .work{
     background-color: #44567c;
+    padding-bottom: 590px;
     /* display: flex;
     align-items: center; */
 
@@ -54,10 +55,13 @@ img{
 #cards{
     display: flex;
     align-self: center;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 #cards div{
    width: 33.3%;
+   justify-content: space-evenly;
 }
 /* .work{
     display: flex;
